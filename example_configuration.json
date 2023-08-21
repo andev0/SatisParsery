@@ -1,0 +1,829 @@
+{
+    "styles": [
+        {
+            "type": "undefined",
+            "style": "rounded=0;whiteSpace=wrap;html=1;fillColor=#373738;fontColor=#F0F0F0;"
+        },
+        {
+            "type": "flora",
+            "style": "rounded=0;whiteSpace=wrap;html=1;fillColor=#0A6B1A;fontColor=#F0F0F0;"
+        },
+        {
+            "type": "caterium",
+            "style": "rounded=0;whiteSpace=wrap;html=1;fillColor=#FFEE59;fontColor=#000000;"
+        },
+        {
+            "type": "oil",
+            "style": "rounded=0;whiteSpace=wrap;html=1;fillColor=#431B52;fontColor=#F0F0F0;"
+        },
+        {
+            "type": "limestone",
+            "style": "rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFDB5;fontColor=#000000;"
+        },
+        {
+            "type": "steel",
+            "style": "rounded=0;whiteSpace=wrap;html=1;fillColor=#294063;fontColor=#EDF3FC;"
+        },
+        {
+            "type": "iron",
+            "style": "rounded=0;whiteSpace=wrap;html=1;fillColor=#7DC2FF;fontColor=#00193B;"
+        },
+        {
+            "type": "quartz",
+            "style": "rounded=0;whiteSpace=wrap;html=1;fillColor=#F0A3E3;fontColor=#361F52;"
+        },
+        {
+            "type": "copper",
+            "style": "rounded=0;whiteSpace=wrap;html=1;fillColor=#FFA057;fontColor=#2B1B0F;"
+        }
+    ],
+    "products": [
+        {
+            "name": "Desc_CartridgeStandard_C",
+            "readable_name": "Rifle Ammo",
+            "type": "undefined",
+            "ignore_recipes": true
+        },
+        {
+            "name": "Desc_NitrogenGas_C",
+            "readable_name": "Nitrogen Gas",
+            "type": "undefined",
+            "ignore_recipes": true
+        },
+        {
+            "name": "Desc_Rebar_Explosive_C",
+            "readable_name": "Explosive Rebar",
+            "type": "undefined",
+            "ignore_recipes": false
+        },
+        {
+            "name": "Desc_PackagedNitricAcid_C",
+            "readable_name": "Packaged Nitric Acid",
+            "type": "undefined",
+            "ignore_recipes": true
+        },
+        {
+            "name": "Desc_HazmatFilter_C",
+            "readable_name": "Iodine Infused Filter",
+            "type": "undefined",
+            "ignore_recipes": true
+        },
+        {
+            "name": "Desc_PressureConversionCube_C",
+            "readable_name": "Pressure Conversion Cube",
+            "type": "undefined",
+            "ignore_recipes": true
+        },
+        {
+            "name": "Desc_Silica_C",
+            "readable_name": "Silica",
+            "type": "undefined",
+            "ignore_recipes": false
+        },
+        {
+            "name": "Desc_LiquidBiofuel_C",
+            "readable_name": "Liquid Biofuel",
+            "type": "flora",
+            "ignore_recipes": false
+        },
+        {
+            "name": "Desc_PackagedOilResidue_C",
+            "readable_name": "Packaged Heavy Oil Residue",
+            "type": "oil",
+            "ignore_recipes": false
+        },
+        {
+            "name": "Desc_CrystalOscillator_C",
+            "readable_name": "Crystal Oscillator",
+            "type": "undefined",
+            "ignore_recipes": false
+        },
+        {
+            "name": "Desc_PlutoniumFuelRod_C",
+            "readable_name": "Plutonium Fuel Rod",
+            "type": "undefined",
+            "ignore_recipes": true
+        },
+        {
+            "name": "Desc_NobeliskShockwave_C",
+            "readable_name": "Pulse Nobelisk",
+            "type": "undefined",
+            "ignore_recipes": false
+        },
+        {
+            "name": "Desc_Plastic_C",
+            "readable_name": "Plastic",
+            "type": "oil",
+            "ignore_recipes": false
+        },
+        {
+            "name": "Desc_HighSpeedWire_C",
+            "readable_name": "Quickwire",
+            "type": "caterium",
+            "ignore_recipes": false
+        },
+        {
+            "name": "Desc_NonFissibleUranium_C",
+            "readable_name": "Non-fissile Uranium",
+            "type": "undefined",
+            "ignore_recipes": true
+        },
+        {
+            "name": "Desc_IronScrew_C",
+            "readable_name": "Screw",
+            "type": "iron",
+            "ignore_recipes": false
+        },
+        {
+            "name": "Desc_SpaceElevatorPart_8_C",
+            "readable_name": "Thermal Propulsion Rocket",
+            "type": "undefined",
+            "ignore_recipes": true
+        },
+        {
+            "name": "Desc_SulfuricAcid_C",
+            "readable_name": "Sulfuric Acid",
+            "type": "undefined",
+            "ignore_recipes": false
+        },
+        {
+            "name": "Desc_NitricAcid_C",
+            "readable_name": "Nitric Acid",
+            "type": "undefined",
+            "ignore_recipes": true
+        },
+        {
+            "name": "Desc_Wire_C",
+            "readable_name": "Wire",
+            "type": "copper",
+            "ignore_recipes": false
+        },
+        {
+            "name": "Desc_QuartzCrystal_C",
+            "readable_name": "Quartz Crystal",
+            "type": "quartz",
+            "ignore_recipes": false
+        },
+        {
+            "name": "Desc_Fabric_C",
+            "readable_name": "Fabric",
+            "type": "flora",
+            "ignore_recipes": false
+        },
+        {
+            "name": "Desc_ModularFrameFused_C",
+            "readable_name": "Fused Modular Frame",
+            "type": "undefined",
+            "ignore_recipes": true
+        },
+        {
+            "name": "Desc_ModularFrame_C",
+            "readable_name": "Modular Frame",
+            "type": "iron",
+            "ignore_recipes": false
+        },
+        {
+            "name": "Desc_SpaceElevatorPart_2_C",
+            "readable_name": "Versatile Framework",
+            "type": "undefined",
+            "ignore_recipes": false
+        },
+        {
+            "name": "Desc_PackagedNitrogenGas_C",
+            "readable_name": "Packaged Nitrogen Gas",
+            "type": "undefined",
+            "ignore_recipes": true
+        },
+        {
+            "name": "Desc_CopperIngot_C",
+            "readable_name": "Copper Ingot",
+            "type": "copper",
+            "ignore_recipes": false
+        },
+        {
+            "name": "Desc_GenericBiomass_C",
+            "readable_name": "Biomass",
+            "type": "flora",
+            "ignore_recipes": false
+        },
+        {
+            "name": "BP_EquipmentDescriptorBeacon_C",
+            "readable_name": "Beacon",
+            "type": "undefined",
+            "ignore_recipes": true
+        },
+        {
+            "name": "Desc_SpaceElevatorPart_6_C",
+            "readable_name": "Magnetic Field Generator",
+            "type": "undefined",
+            "ignore_recipes": true
+        },
+        {
+            "name": "Desc_IronPlateReinforced_C",
+            "readable_name": "Reinforced Iron Plate",
+            "type": "iron",
+            "ignore_recipes": false
+        },
+        {
+            "name": "Desc_ElectromagneticControlRod_C",
+            "readable_name": "Electromagnetic Control Rod",
+            "type": "undefined",
+            "ignore_recipes": true
+        },
+        {
+            "name": "Desc_CartridgeChaos_C",
+            "readable_name": "Turbo Rifle Ammo",
+            "type": "undefined",
+            "ignore_recipes": false
+        },
+        {
+            "name": "Desc_NobeliskGas_C",
+            "readable_name": "Gas Nobelisk",
+            "type": "undefined",
+            "ignore_recipes": false
+        },
+        {
+            "name": "Desc_UraniumCell_C",
+            "readable_name": "Encased Uranium Cell",
+            "type": "undefined",
+            "ignore_recipes": true
+        },
+        {
+            "name": "Desc_AluminaSolution_C",
+            "readable_name": "Alumina Solution",
+            "type": "undefined",
+            "ignore_recipes": true
+        },
+        {
+            "name": "Desc_GunpowderMK2_C",
+            "readable_name": "Smokeless Powder",
+            "type": "undefined",
+            "ignore_recipes": false
+        },
+        {
+            "name": "Desc_ModularFrameLightweight_C",
+            "readable_name": "Radio Control Unit",
+            "type": "undefined",
+            "ignore_recipes": true
+        },
+        {
+            "name": "Desc_SteelPipe_C",
+            "readable_name": "Steel Pipe",
+            "type": "steel",
+            "ignore_recipes": false
+        },
+        {
+            "name": "Desc_CartridgeSmartProjectile_C",
+            "readable_name": "Homing Rifle Ammo",
+            "type": "undefined",
+            "ignore_recipes": false
+        },
+        {
+            "name": "Desc_NobeliskCluster_C",
+            "readable_name": "Cluster Nobelisk",
+            "type": "undefined",
+            "ignore_recipes": false
+        },
+        {
+            "name": "Desc_SpaceElevatorPart_7_C",
+            "readable_name": "Assembly Director System",
+            "type": "undefined",
+            "ignore_recipes": true
+        },
+        {
+            "name": "Desc_AlienProtein_C",
+            "readable_name": "Alien Protein",
+            "type": "undefined",
+            "ignore_recipes": false
+        },
+        {
+            "name": "Desc_CrystalShard_C",
+            "readable_name": "Power Shard",
+            "type": "undefined",
+            "ignore_recipes": true
+        },
+        {
+            "name": "Desc_MotorLightweight_C",
+            "readable_name": "Turbo Motor",
+            "type": "undefined",
+            "ignore_recipes": true
+        },
+        {
+            "name": "Desc_NobeliskNuke_C",
+            "readable_name": "Nuke Nobelisk",
+            "type": "undefined",
+            "ignore_recipes": false
+        },
+        {
+            "name": "Desc_SpaceElevatorPart_3_C",
+            "readable_name": "Automated Wiring",
+            "type": "undefined",
+            "ignore_recipes": false
+        },
+        {
+            "name": "Desc_Rebar_Stunshot_C",
+            "readable_name": "Stun Rebar",
+            "type": "undefined",
+            "ignore_recipes": false
+        },
+        {
+            "name": "Desc_AluminumCasing_C",
+            "readable_name": "Aluminum Casing",
+            "type": "undefined",
+            "ignore_recipes": true
+        },
+        {
+            "name": "Desc_Stator_C",
+            "readable_name": "Stator",
+            "type": "undefined",
+            "ignore_recipes": false
+        },
+        {
+            "name": "Desc_LiquidOil_C",
+            "readable_name": "Crude Oil",
+            "type": "oil",
+            "ignore_recipes": false
+        },
+        {
+            "name": "Desc_CircuitBoard_C",
+            "readable_name": "Circuit Board",
+            "type": "caterium",
+            "ignore_recipes": false
+        },
+        {
+            "name": "Desc_SpaceElevatorPart_1_C",
+            "readable_name": "Smart Plating",
+            "type": "iron",
+            "ignore_recipes": false
+        },
+        {
+            "name": "Desc_ColorCartridge_C",
+            "readable_name": "Color Cartridge",
+            "type": "undefined",
+            "ignore_recipes": false
+        },
+        {
+            "name": "Desc_HighSpeedConnector_C",
+            "readable_name": "High-Speed Connector",
+            "type": "caterium",
+            "ignore_recipes": false
+        },
+        {
+            "name": "Desc_SpikedRebar_C",
+            "readable_name": "Iron Rebar",
+            "type": "undefined",
+            "ignore_recipes": true
+        },
+        {
+            "name": "Desc_SpaceElevatorPart_5_C",
+            "readable_name": "Adaptive Control Unit",
+            "type": "undefined",
+            "ignore_recipes": false
+        },
+        {
+            "name": "Desc_LiquidTurboFuel_C",
+            "readable_name": "Turbofuel",
+            "type": "undefined",
+            "ignore_recipes": false
+        },
+        {
+            "name": "Desc_NobeliskExplosive_C",
+            "readable_name": "Nobelisk",
+            "type": "undefined",
+            "ignore_recipes": true
+        },
+        {
+            "name": "Desc_GasTank_C",
+            "readable_name": "Empty Fluid Tank",
+            "type": "undefined",
+            "ignore_recipes": true
+        },
+        {
+            "name": "Desc_PackagedSulfuricAcid_C",
+            "readable_name": "Packaged Sulfuric Acid",
+            "type": "undefined",
+            "ignore_recipes": true
+        },
+        {
+            "name": "Desc_AluminumPlate_C",
+            "readable_name": "Alclad Aluminum Sheet",
+            "type": "undefined",
+            "ignore_recipes": true
+        },
+        {
+            "name": "Desc_Battery_C",
+            "readable_name": "Battery",
+            "type": "undefined",
+            "ignore_recipes": true
+        },
+        {
+            "name": "Desc_IronPlate_C",
+            "readable_name": "Iron Plate",
+            "type": "iron",
+            "ignore_recipes": false
+        },
+        {
+            "name": "Desc_AluminumScrap_C",
+            "readable_name": "Aluminum Scrap",
+            "type": "undefined",
+            "ignore_recipes": true
+        },
+        {
+            "name": "Desc_Filter_C",
+            "readable_name": "Gas Filter",
+            "type": "undefined",
+            "ignore_recipes": true
+        },
+        {
+            "name": "Desc_FluidCanister_C",
+            "readable_name": "Empty Canister",
+            "type": "oil",
+            "ignore_recipes": false
+        },
+        {
+            "name": "Desc_Water_C",
+            "readable_name": "Water",
+            "type": "undefined",
+            "ignore_recipes": false
+        },
+        {
+            "name": "Desc_PackagedAlumina_C",
+            "readable_name": "Packaged Alumina Solution",
+            "type": "undefined",
+            "ignore_recipes": true
+        },
+        {
+            "name": "Desc_NuclearFuelRod_C",
+            "readable_name": "Uranium Fuel Rod",
+            "type": "undefined",
+            "ignore_recipes": true
+        },
+        {
+            "name": "Desc_CircuitBoardHighSpeed_C",
+            "readable_name": "AI Limiter",
+            "type": "caterium",
+            "ignore_recipes": false
+        },
+        {
+            "name": "Desc_AlienDNACapsule_C",
+            "readable_name": "Alien DNA Capsule",
+            "type": "undefined",
+            "ignore_recipes": false
+        },
+        {
+            "name": "Desc_SpaceElevatorPart_9_C",
+            "readable_name": "Nuclear Pasta",
+            "type": "undefined",
+            "ignore_recipes": true
+        },
+        {
+            "name": "Desc_SteelIngot_C",
+            "readable_name": "Steel Ingot",
+            "type": "steel",
+            "ignore_recipes": false
+        },
+        {
+            "name": "Desc_Biofuel_C",
+            "readable_name": "Solid Biofuel",
+            "type": "flora",
+            "ignore_recipes": false
+        },
+        {
+            "name": "Desc_ComputerSuper_C",
+            "readable_name": "Supercomputer",
+            "type": "undefined",
+            "ignore_recipes": false
+        },
+        {
+            "name": "Desc_Cable_C",
+            "readable_name": "Cable",
+            "type": "copper",
+            "ignore_recipes": false
+        },
+        {
+            "name": "Desc_AluminumPlateReinforced_C",
+            "readable_name": "Heat Sink",
+            "type": "undefined",
+            "ignore_recipes": true
+        },
+        {
+            "name": "Desc_GoldIngot_C",
+            "readable_name": "Caterium Ingot",
+            "type": "caterium",
+            "ignore_recipes": true
+        },
+        {
+            "name": "Desc_PackagedWater_C",
+            "readable_name": "Packaged Water",
+            "type": "undefined",
+            "ignore_recipes": false
+        },
+        {
+            "name": "Desc_PlutoniumPellet_C",
+            "readable_name": "Plutonium Pellet",
+            "type": "undefined",
+            "ignore_recipes": true
+        },
+        {
+            "name": "Desc_Gunpowder_C",
+            "readable_name": "Black Powder",
+            "type": "undefined",
+            "ignore_recipes": false
+        },
+        {
+            "name": "Desc_PackagedBiofuel_C",
+            "readable_name": "Packaged Liquid Biofuel",
+            "type": "flora",
+            "ignore_recipes": false
+        },
+        {
+            "name": "Desc_LiquidFuel_C",
+            "readable_name": "Fuel",
+            "type": "oil",
+            "ignore_recipes": false
+        },
+        {
+            "name": "Desc_SteelPlateReinforced_C",
+            "readable_name": "Encased Industrial Beam",
+            "type": "steel",
+            "ignore_recipes": false
+        },
+        {
+            "name": "Desc_Rotor_C",
+            "readable_name": "Rotor",
+            "type": "oil",
+            "ignore_recipes": false
+        },
+        {
+            "name": "Desc_CoolingSystem_C",
+            "readable_name": "Cooling System",
+            "type": "undefined",
+            "ignore_recipes": true
+        },
+        {
+            "name": "Desc_IronIngot_C",
+            "readable_name": "Iron Ingot",
+            "type": "iron",
+            "ignore_recipes": false
+        },
+        {
+            "name": "Desc_Motor_C",
+            "readable_name": "Motor",
+            "type": "undefined",
+            "ignore_recipes": false
+        },
+        {
+            "name": "Desc_PolymerResin_C",
+            "readable_name": "Polymer Resin",
+            "type": "oil",
+            "ignore_recipes": false
+        },
+        {
+            "name": "Desc_PlutoniumCell_C",
+            "readable_name": "Encased Plutonium Cell",
+            "type": "undefined",
+            "ignore_recipes": true
+        },
+        {
+            "name": "Desc_SteelPlate_C",
+            "readable_name": "Steel Beam",
+            "type": "steel",
+            "ignore_recipes": false
+        },
+        {
+            "name": "Desc_PackagedOil_C",
+            "readable_name": "Packaged Oil",
+            "type": "oil",
+            "ignore_recipes": false
+        },
+        {
+            "name": "Desc_Rebar_Spreadshot_C",
+            "readable_name": "Shatter Rebar",
+            "type": "undefined",
+            "ignore_recipes": false
+        },
+        {
+            "name": "Desc_AluminumIngot_C",
+            "readable_name": "Aluminum Ingot",
+            "type": "undefined",
+            "ignore_recipes": true
+        },
+        {
+            "name": "Desc_IronRod_C",
+            "readable_name": "Iron Rod",
+            "type": "iron",
+            "ignore_recipes": false
+        },
+        {
+            "name": "Desc_PetroleumCoke_C",
+            "readable_name": "Petroleum Coke",
+            "type": "oil",
+            "ignore_recipes": false
+        },
+        {
+            "name": "Desc_HeavyOilResidue_C",
+            "readable_name": "Heavy Oil Residue",
+            "type": "oil",
+            "ignore_recipes": false
+        },
+        {
+            "name": "Desc_Rubber_C",
+            "readable_name": "Rubber",
+            "type": "oil",
+            "ignore_recipes": false
+        },
+        {
+            "name": "Desc_CopperSheet_C",
+            "readable_name": "Copper Sheet",
+            "type": "copper",
+            "ignore_recipes": false
+        },
+        {
+            "name": "Desc_Cement_C",
+            "readable_name": "Concrete",
+            "type": "limestone",
+            "ignore_recipes": false
+        },
+        {
+            "name": "Desc_CopperDust_C",
+            "readable_name": "Copper Powder",
+            "type": "undefined",
+            "ignore_recipes": true
+        },
+        {
+            "name": "Desc_Computer_C",
+            "readable_name": "Computer",
+            "type": "undefined",
+            "ignore_recipes": false
+        },
+        {
+            "name": "Desc_TurboFuel_C",
+            "readable_name": "Packaged Turbofuel",
+            "type": "undefined",
+            "ignore_recipes": false
+        },
+        {
+            "name": "Desc_SpaceElevatorPart_4_C",
+            "readable_name": "Modular Engine",
+            "type": "undefined",
+            "ignore_recipes": false
+        },
+        {
+            "name": "Desc_ModularFrameHeavy_C",
+            "readable_name": "Heavy Modular Frame",
+            "type": "undefined",
+            "ignore_recipes": false
+        },
+        {
+            "name": "Desc_Fuel_C",
+            "readable_name": "Packaged Fuel",
+            "type": "oil",
+            "ignore_recipes": false
+        }
+    ],
+    "ingredients": [
+        {
+            "name": "Desc_OreIron_C",
+            "readable_name": "Iron Ore",
+            "type": "iron"
+        },
+        {
+            "name": "Desc_Leaves_C",
+            "readable_name": "Leaves",
+            "type": "flora"
+        },
+        {
+            "name": "Desc_Mycelia_C",
+            "readable_name": "Mycelia",
+            "type": "flora"
+        },
+        {
+            "name": "Desc_FlowerPetals_C",
+            "readable_name": "Flower Petals",
+            "type": "flora"
+        },
+        {
+            "name": "Desc_OreCopper_C",
+            "readable_name": "Copper Ore",
+            "type": "copper"
+        },
+        {
+            "name": "Desc_HatcherParts_C",
+            "readable_name": "Hatcher Remains",
+            "type": "undefined"
+        },
+        {
+            "name": "Desc_Stone_C",
+            "readable_name": "Limestone",
+            "type": "limestone"
+        },
+        {
+            "name": "Desc_OreBauxite_C",
+            "readable_name": "Bauxite",
+            "type": "undefined"
+        },
+        {
+            "name": "Desc_SpitterParts_C",
+            "readable_name": "Plasma Spitter Remains",
+            "type": "undefined"
+        },
+        {
+            "name": "Desc_RawQuartz_C",
+            "readable_name": "Raw Quartz",
+            "type": "quartz"
+        },
+        {
+            "name": "Desc_Coal_C",
+            "readable_name": "Coal",
+            "type": "undefined"
+        },
+        {
+            "name": "Desc_Wood_C",
+            "readable_name": "Wood",
+            "type": "flora"
+        },
+        {
+            "name": "Desc_OreGold_C",
+            "readable_name": "Caterium Ore",
+            "type": "caterium"
+        },
+        {
+            "name": "Desc_NuclearWaste_C",
+            "readable_name": "Uranium Waste",
+            "type": "undefined"
+        },
+        {
+            "name": "Desc_StingerParts_C",
+            "readable_name": "Stinger Remains",
+            "type": "undefined"
+        },
+        {
+            "name": "Desc_Crystal_C",
+            "readable_name": "Blue Power Slug",
+            "type": "undefined"
+        },
+        {
+            "name": "Desc_OreUranium_C",
+            "readable_name": "Uranium",
+            "type": "undefined"
+        },
+        {
+            "name": "Desc_HogParts_C",
+            "readable_name": "Hog Remains",
+            "type": "undefined"
+        },
+        {
+            "name": "Desc_Crystal_mk3_C",
+            "readable_name": "Purple Power Slug",
+            "type": "undefined"
+        },
+        {
+            "name": "Desc_Crystal_mk2_C",
+            "readable_name": "Yellow Power Slug",
+            "type": "undefined"
+        },
+        {
+            "name": "Desc_Sulfur_C",
+            "readable_name": "Sulfur",
+            "type": "undefined"
+        }
+    ],
+    "buildings": [
+        {
+            "name": "Desc_HadronCollider_C",
+            "readable_name": "Particle Accelerator"
+        },
+        {
+            "name": "Desc_SmelterMk1_C",
+            "readable_name": "Smelter"
+        },
+        {
+            "name": "Desc_FoundryMk1_C",
+            "readable_name": "Foundry"
+        },
+        {
+            "name": "Desc_Blender_C",
+            "readable_name": "Blender"
+        },
+        {
+            "name": "Desc_ManufacturerMk1_C",
+            "readable_name": "Manufacturer"
+        },
+        {
+            "name": "Desc_ConstructorMk1_C",
+            "readable_name": "Constructor"
+        },
+        {
+            "name": "Desc_OilRefinery_C",
+            "readable_name": "Refinery"
+        },
+        {
+            "name": "Desc_Packager_C",
+            "readable_name": "Packager"
+        },
+        {
+            "name": "Desc_AssemblerMk1_C",
+            "readable_name": "Assembler"
+        }
+    ]
+}
