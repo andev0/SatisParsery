@@ -1,7 +1,7 @@
 # SatisParsery
-**Convert Satisfactory recipes data into Drawio diagram (list of recipes).**
+**Convert Satisfactory recipes data into a Drawio diagram (list of recipes).**
 
-Purpose of the project is making life easier when planning factories for those who don't like "I'll do it completely for you" tools.
+The purpose of the project is to make life easier when planning factories for those who don't like "I'll do it completely for you" tools.
 
 ![Alt text](screenshots/diagram.png)
 
@@ -57,7 +57,7 @@ SatisParsery \
 
 ### configuration.json
 
-Configuration file in which you can change the following things:
+The configuration file in which you can change the following things:
 - Readable names of items and buildings (e.g. *"Smart Plating"* instead of *"Desc_SpaceElevatorPart_1_C"*)
 - Ignored recipes
 - Drawio styles of the elements (e.g. colors)
@@ -66,7 +66,7 @@ An example can be found in `example_configuration.json`.
 
 ### output.drawio
 
-Path to which resulting diagram will be written.
+Path to which the resulting diagram will be written.
 
 ## Additional tools
 
@@ -79,10 +79,6 @@ Readable names for [the configuration file](#configurationjson) can be fetched f
 
 Every time you launch the program, it rearranges configuration file arrays' items in random order. I don't know how to fix it yet.
 
-### Windows support
-
-I didn't test the program on Windows thus can't guarantee that the program compiles and works on this OS.
-
 ### readable_names.sh prints links
 
-Currently the script can't deal with names of alien remains and buildings. There are not much of them so it should make a big deal but maybe I figure out how to fix this soon.
+Currently, the script can't deal with the names of alien remains and buildings. There are not many of them, so it should not make a big deal, but maybe I can figure out how to fix this soon.
