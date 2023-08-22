@@ -43,6 +43,8 @@ make
 
 ## Usage
 
+You can just use the ready diagram from [the latest Release](https://github.com/andev0/SatisParsery/releases/latest) or generate your own one with a configuration that is convenient for you:
+
 ```
 SatisParsery \
     path/to/data.json \
