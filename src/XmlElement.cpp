@@ -3,7 +3,7 @@
 #include <cassert>
 #include <fstream>
 
-XmlElement::XmlElement(std::string_view type)
+XmlElement::XmlElement(const std::string_view type)
     : m_type(type)
 { }
 

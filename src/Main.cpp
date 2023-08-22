@@ -13,7 +13,7 @@
 
 int main(int argc, const char* argv[])
 {
-    if (argc < 4)
+    if (argc != 4)
     {
         LOG_ERROR("Usage: SatisParsery path/to/data.json path/to/configuration.json "
                   "path/to/output.drawio");

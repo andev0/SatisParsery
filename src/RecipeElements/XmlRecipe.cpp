@@ -3,6 +3,8 @@
 #include "GroupItem.h"
 #include "Logging.h"
 
+#include "Algorithms.h"
+
 XmlRecipe::XmlRecipe(const std::string_view parentId,
                      const size_t recipeIndex,
                      const Items& ingredients,
@@ -142,6 +144,8 @@ void XmlRecipe::generateItemElements(const Items& source,
                 break;
             }
         }
+
+        name = doubleToString(source[i].count) + " " + name;
 
         const auto itemElementPtr
             = new RecipeItem(m_groupElement->getId(), name, style, geometry);

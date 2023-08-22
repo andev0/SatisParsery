@@ -1,5 +1,7 @@
 #include "MxGeometryTag.h"
 
+#include "Algorithms.h"
+
 MxGeometryTag::MxGeometryTag()
     : MxGeometryTag(0, 0, 0, 0)
 { }
@@ -14,10 +16,10 @@ MxGeometryTag::MxGeometryTag(const double x,
     , m_width(width)
     , m_height(height)
 {
-    setAttribute("x", std::to_string(x));
-    setAttribute("y", std::to_string(y));
-    setAttribute("width", std::to_string(width));
-    setAttribute("height", std::to_string(height));
+    setAttribute("x", doubleToString(x));
+    setAttribute("y", doubleToString(y));
+    setAttribute("width", doubleToString(width));
+    setAttribute("height", doubleToString(height));
 
     setAttribute("as", "geometry");
 }
@@ -46,22 +48,22 @@ double MxGeometryTag::getHeight() const
     return m_height;
 }
 
-void MxGeometryTag::setX(double x)
+void MxGeometryTag::setX(const double x)
 {
     m_x = x;
 }
 
-void MxGeometryTag::setY(double y)
+void MxGeometryTag::setY(const double y)
 {
     m_y = y;
 }
 
-void MxGeometryTag::setWidth(double width)
+void MxGeometryTag::setWidth(const double width)
 {
     m_width = width;
 }
 
-void MxGeometryTag::setHeight(double height)
+void MxGeometryTag::setHeight(const double height)
 {
     m_height = height;
 }

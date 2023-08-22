@@ -9,7 +9,7 @@ bool readLine(std::string_view filePath, std::string& line);
 std::string readFile(std::string_view filePath);
 
 template<class Collection>
-void writeToFile(std::string_view filePath, Collection collection)
+void writeToFile(const std::string_view filePath, Collection collection)
 {
     std::ofstream outputFile(filePath.data());
 

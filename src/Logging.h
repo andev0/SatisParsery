@@ -10,7 +10,7 @@ template<class BidirectionalIteratorT, class GetterT>
 void printList(BidirectionalIteratorT begin,
                BidirectionalIteratorT end,
                GetterT getItem,
-               std::string_view separator = ", ")
+               const std::string_view separator = ", ")
 {
     auto lastItem = end;
     --lastItem;

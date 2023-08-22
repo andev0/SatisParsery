@@ -29,9 +29,10 @@ bool readLine(const std::string_view filePath, std::string& line)
     }
 }
 
-std::string readFile(std::string_view filePath)
+std::string readFile(const std::string_view filePath)
 {
-    std::string fileContent, line;
+    std::string fileContent;
+    std::string line;
 
     while (readLine(filePath, line))
     {
