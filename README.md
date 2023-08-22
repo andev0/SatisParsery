@@ -19,7 +19,6 @@ The purpose of the project is to make life easier when planning factories for th
     - [Acquiring readable names](#acquiring-readable-names)
 6. [Known issues](#known-issues)
     - [Random sorting in configuration](#random-sorting-in-configuration)
-    - [Windows support](#windows-support)
     - [readable_names.sh prints links](#readable_namessh-prints-links)
 
 ## Dependencies
